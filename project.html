@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Project | Hanna Lee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header__inner">
+    <a href="index.html" class="logo">
+      <span class="logo__badge">H</span>
+      <span class="logo__text">Hanna Lee</span>
+    </a>
+    <nav class="nav">
+      <a href="work.html" class="nav--current">Work</a>
+      <a href="about.html">About</a>
+      <a href="https://drive.google.com/file/d/1mLSOjNJPmlI4CT8QO3XH7jIiPDho6L-u/view?usp=drive_link" target="_blank" rel="noopener">Download CV</a>
+    </nav>
+    <a href="mailto:0914han@naver.com" class="btn btn--dark">Get in touch</a>
+  </div>
+</header>
+
+<!-- Project detail -->
+<section class="project-page">
+  <div class="container">
+    <nav class="project-breadcrumb" id="projectBreadcrumb" aria-label="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <a href="work.html">Work</a>
+      <span>/</span>
+      <a href="work.html" id="breadcrumbCategory">Category</a>
+      <span>/</span>
+      <span id="breadcrumbTitle">Project</span>
+    </nav>
+
+    <div class="project-head">
+      <h1 class="project-title" id="projectTitle">Project</h1>
+      <a href="work.html" class="btn btn--outline">← Back to Work</a>
+    </div>
+  </div>
+
+  <div class="project-divider">
+    <div class="container"></div>
+  </div>
+
+  <div class="container project-body">
+    <div class="project-media">
+      <div class="project-media__placeholder" id="projectImage"></div>
+    </div>
+
+    <aside class="project-sidebar">
+      <h2 class="project-sidebar__heading" id="projectSidebarHeading"></h2>
+
+      <div class="project-sidebar__block">
+        <span class="project-sidebar__label">Brand</span>
+        <span class="project-sidebar__value" id="projectBrand"></span>
+      </div>
+
+      <div class="project-sidebar__block">
+        <span class="project-sidebar__label">Software:</span>
+        <div class="project-sidebar__software" id="projectSoftware"></div>
+      </div>
+
+      <div class="project-sidebar__block" id="projectKeywordsBlock" hidden>
+        <span class="project-sidebar__label">Concept Keywords</span>
+        <span class="project-sidebar__value" id="projectKeywords"></span>
+      </div>
+
+      <div class="project-sidebar__block">
+        <span class="project-sidebar__label">Design Story</span>
+        <p class="project-sidebar__story" id="projectStory"></p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="logo">
+          <span class="logo__badge">H</span>
+          <span class="logo__text">Hanna Lee</span>
+        </a>
+        <p>브랜딩, 그래픽, 웹, 이커머스,<br>고객사 속 브랜드 디자이너</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>WORK</h4>
+        <a href="work.html#brand">Brand Identity</a>
+        <a href="work.html#graphic">Graphic Design</a>
+        <a href="work.html#event">Product Detail Page</a>
+        <a href="work.html#promo">Promotional Page</a>
+        <a href="work.html#web">Web Design</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>INFO</h4>
+        <a href="about.html">About</a>
+        <a href="about.html#skills">Skills</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>CONNECT</h4>
+        <a href="mailto:0914han@naver.com">0914han@naver.com</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 Hanna Lee. All rights reserved.</span>
+      <span>DESIGN PORTFOLIO</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

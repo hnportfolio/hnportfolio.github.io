@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hanna Lee | Design Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <span class="logo__badge">H</span>
+      <span class="logo__text">Hanna Lee</span>
+    </a>
+    <nav class="nav">
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="https://drive.google.com/file/d/1mLSOjNJPmlI4CT8QO3XH7jIiPDho6L-u/view?usp=drive_link" target="_blank" rel="noopener">Download CV</a>
+    </nav>
+    <a href="mailto:0914han@naver.com" class="btn btn--dark">Get in touch</a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero__intro">
+    <h1 class="hero__title reveal">Design Portfolio</h1>
+    <p class="hero__subtitle reveal reveal--delay-1">브랜드의 가치를 시각적 경험으로 설계하는 Visual &amp; Web Designer</p>
+    <div class="hero__actions reveal reveal--delay-2">
+      <a href="work.html" class="btn btn--dark">포트폴리오 보기</a>
+      <a href="about.html" class="btn btn--outline">디자이너 소개</a>
+    </div>
+  </div>
+  <div class="hero__media reveal-img">
+    <div class="hero__slider" id="heroSlider">
+      <div class="hero__slide">
+        <img class="hero__media-img" src="images/hero/main_banner1.jpg" alt="Hanna Lee 포트폴리오 작업물 미리보기 1">
+      </div>
+      <div class="hero__slide">
+        <img class="hero__media-img" src="images/hero/main_banner2.jpg" alt="Hanna Lee 포트폴리오 작업물 미리보기 2">
+      </div>
+      <div class="hero__slider-dots" id="heroSliderDots" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Work -->
+<main id="work">
+
+  <!-- Brand Identity -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Brand Identitiy</h2>
+        <a href="work.html#brand" class="more">more <span class="arrow">→</span></a>
+      </div>
+      <div class="card-grid">
+
+        <a class="card" href="project.html?id=garden-sketch">
+          <div class="card__thumb" style="background-image: url('images/brand-identity/01.Garden-Sketch.jpg');"></div>
+          <h3 class="card__title">Garden Sketch</h3>
+          <p class="card__desc">브랜드 아이덴티티 · 로고</p>
+        </a>
+
+        <a class="card" href="project.html?id=soda-talk">
+          <div class="card__thumb" style="background-image: url('images/brand-identity/06.SODATALK.jpg');"></div>
+          <h3 class="card__title">SODA Talk</h3>
+          <p class="card__desc">브랜드 아이덴티티 · 명함 디자인</p>
+        </a>
+
+        <a class="card" href="project.html?id=vvd-painting">
+          <div class="card__thumb" style="background-image: url('images/brand-identity/03.VVD.jpg');"></div>
+          <h3 class="card__title">VVD Painting</h3>
+          <p class="card__desc">페인팅 브랜드 아이덴티 디자인</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Graphic Design -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Graphic Design</h2>
+        <a href="work.html#graphic" class="more">more <span class="arrow">→</span></a>
+      </div>
+      <div class="card-grid">
+
+        <a class="card" href="project.html?id=hanam-city">
+          <div class="card__thumb" style="background-image: url('images/graphic-design/01.Hanam-City.jpg');"></div>
+          <h3 class="card__title">Hanam City</h3>
+          <p class="card__desc">하남시청 명함 디자인</p>
+        </a>
+
+        <a class="card" href="project.html?id=banner-design">
+          <div class="card__thumb" style="background-image: url('images/graphic-design/02.Banner-design.jpg');"></div>
+          <h3 class="card__title">Banner design</h3>
+          <p class="card__desc">카페 브랜드 오브제 디자인</p>
+        </a>
+
+        <a class="card" href="project.html?id=brochure">
+          <div class="card__thumb" style="background-image: url('images/graphic-design/03.양화봉브로슈어.jpg');"></div>
+          <h3 class="card__title">Brochure design</h3>
+          <p class="card__desc">영화볼 샵 브로슈어 &amp; 리플렛 디자인</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Event & Product Page -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Product Detail Page</h2>
+        <a href="work.html#event" class="more">more <span class="arrow">→</span></a>
+      </div>
+      <div class="card-grid">
+
+        <a class="card" href="project.html?id=verus">
+          <div class="card__thumb" style="background-image: url('images/event-product/01.verus.jpg');"></div>
+          <h3 class="card__title">VERUS 상세페이지</h3>
+          <p class="card__desc">폰케이스 브랜드 상세페이지 디자인</p>
+        </a>
+
+        <a class="card" href="project.html?id=food-brand">
+          <div class="card__thumb" style="background-image: url('images/event-product/02.식품.jpg');"></div>
+          <h3 class="card__title">이유식 상세페이지</h3>
+          <p class="card__desc">식품 브랜드 상세페이지 디자인</p>
+        </a>
+
+        <a class="card" href="project.html?id=true-religion">
+          <div class="card__thumb" style="background-image: url('images/event-product/03.True-Religion.jpg');"></div>
+          <h3 class="card__title">True Religion 상세페이지</h3>
+          <p class="card__desc">패션 브랜드 상세페이지 디자인</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Web Design -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Web Design</h2>
+        <a href="work.html#web" class="more">more <span class="arrow">→</span></a>
+      </div>
+      <div class="card-grid">
+
+        <a class="card" href="project.html?id=iherb">
+          <div class="card__thumb" style="background-image: url('images/web-design/01.iHerb.jpg');"></div>
+          <h3 class="card__title">iHerb</h3>
+          <p class="card__desc">아이허브 브랜드 리뉴얼 디자인 시안 제작</p>
+        </a>
+
+        <a class="card" href="project.html?id=hanwoo-blog">
+          <div class="card__thumb" style="background-image: url('images/web-design/02.Blog.jpg');"></div>
+          <h3 class="card__title">Blog Design</h3>
+          <p class="card__desc">한우 브랜드 아이덴티 블로그 디자인 제작</p>
+        </a>
+
+        <a class="card" href="project.html?id=cosmetics">
+          <div class="card__thumb" style="background-image: url('images/web-design/03.cosmetics.jpg');"></div>
+          <h3 class="card__title">Cosmetics</h3>
+          <p class="card__desc">코스메틱 브랜드 아이덴티 랜딩디자인 시안작업</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__left">
+        <span class="about__label">About</span>
+        <p class="about__text">브랜딩부터 웹, 상세페이지까지<br>브랜드가 고객과 만나는 모든 순간을<br>하나의 일관된 경험으로 디자인 합니다.</p>
+      </div>
+      <div class="about__right">
+        <div class="about__row">
+          <span class="about__key">Focus</span>
+          <span class="about__val">Brand · Graphic · Web · Event</span>
+        </div>
+        <div class="about__row">
+          <span class="about__key">Base</span>
+          <span class="about__val">Seoul, South Korea</span>
+        </div>
+        <div class="about__row">
+          <span class="about__key">Tools</span>
+          <span class="about__val">Illustrator, Photoshop, Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills &amp; Tools</h2>
+      <p class="skills__sub">브랜딩부터 웹, 상세페이지까지 전 과정을 소화하는 나의 도구</p>
+      <div class="skills__tags">
+        <span class="tag">Illustrator</span>
+        <span class="tag">Photoshop</span>
+        <span class="tag">Figma</span>
+        <span class="tag">AI</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#" class="logo">
+          <span class="logo__badge">H</span>
+          <span class="logo__text">Hanna Lee</span>
+        </a>
+        <p>브랜딩, 그래픽, 웹, 이커머스,<br>고객사 속 브랜드 디자이너</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>WORK</h4>
+        <a href="work.html#brand">Brand Identity</a>
+        <a href="work.html#graphic">Graphic Design</a>
+        <a href="work.html#event">Product Detail Page</a>
+        <a href="work.html#promo">Promotional Page</a>
+        <a href="work.html#web">Web Design</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>INFO</h4>
+        <a href="about.html">About</a>
+        <a href="about.html#skills">Skills</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>CONNECT</h4>
+        <a href="mailto:0914han@naver.com">0914han@naver.com</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 Hanna Lee. All rights reserved.</span>
+      <span>DESIGN PORTFOLIO</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
