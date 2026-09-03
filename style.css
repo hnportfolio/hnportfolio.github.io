@@ -837,5 +837,5 @@ ul, li { list-style: none; }
   .exp-row__period { text-align: left; }
   .process-grid { grid-template-columns: 1fr; gap: 32px; }
   .process-item { border-left: none; padding: 0; }
-  .expertise-grid { grid-template-columns: 1fr; }
+  .expertise-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
 }
