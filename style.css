@@ -833,6 +833,7 @@ ul, li { list-style: none; }
   .profile__inner { flex-direction: column; }
   .profile__photo { width: 100%; aspect-ratio: 4 / 3; }
   .profile__stats { gap: 24px; flex-wrap: wrap; }
+  .experience { display: none; }
   .process-grid { grid-template-columns: 1fr; gap: 32px; }
   .process-item {
     display: flex;
