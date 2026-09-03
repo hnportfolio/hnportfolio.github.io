@@ -32,7 +32,12 @@ body {
   background: var(--white);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden; /* 전체 폭(100vw) 구분선이 스크롤바 폭만큼 가로 스크롤을 만드는 것을 방지 */
+}
+
+@media (min-width: 901px) {
+  /* 데스크톱 전용: 전체 폭(100vw) 구분선이 스크롤바 폭만큼 가로 스크롤을 만드는 것을 방지.
+     모바일에 걸면 iOS Safari에서 내부 가로 스크롤(필터 목록 등)이 막히는 버그가 있어 데스크톱에서만 적용. */
+  body { overflow-x: hidden; }
 }
 
 a { text-decoration: none; color: inherit; }
