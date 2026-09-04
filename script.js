@@ -313,6 +313,7 @@
       images: [
         "images/project/dajimyuk-package/01.package.jpg",
         "images/project/dajimyuk-package/02.package.jpg",
+        "images/project/dajimyuk-package/04.package.jpg",
         "images/project/dajimyuk-package/03.package.jpg"
       ]
     },
