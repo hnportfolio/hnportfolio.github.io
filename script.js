@@ -169,7 +169,10 @@
       brand: "화려한우", software: ["Ai", "Ps"],
       keywords: "Traditional · Premium · Trust · Clean",
       story: "한우 곰탕의 정갈함과 전통적인 이미지를 중심으로, 제품에 대한 신뢰와 품질이 자연스럽게 느껴지도록 구성했습니다.\n아이보리와 브라운 계열을 사용해 따뜻하고 담백한 분위기를 만들고, 전통 문양과 한식 이미지를 더해 고급스럽고 정성스러운 브랜드 인상을 강조했습니다.\n전면에는 제품명과 음식 이미지를 명확하게 배치해 직관성을 높이고, 전체적으로 깔끔하면서도 믿음직한 패키지 디자인으로 완성했습니다.",
-      images: ["images/project/hwarihanwoo-brand/01.사골곰탕package.jpg"]
+      images: [
+        "images/project/hwarihanwoo-brand/01.사골곰탕package.jpg",
+        "images/project/hwarihanwoo-brand/02.사골곰탕.png"
+      ]
     },
     "vvd-painting": {
       title: "VVD Painting", category: "brand", type: "BRAND IDENTITY",
