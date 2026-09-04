@@ -463,7 +463,8 @@ ul, li { list-style: none; }
   display: flex;
   align-items: flex-start;
   gap: 48px;
-  padding: 56px 0 96px;
+  padding-top: 56px;
+  padding-bottom: 96px;
 }
 
 .work-filters {
