@@ -917,7 +917,13 @@ ul, li { list-style: none; }
   .mobile-tabbar__label { font-size: 12px; font-weight: 600; }
   .mobile-tabbar__item.is-active { color: var(--accent); }
   .mobile-tabbar__item.is-active .mobile-tabbar__icon {
+    position: relative;
+    top: -16px;
+    width: 64px;
+    height: 64px;
     background: var(--accent);
     color: var(--white);
+    box-shadow: 0 8px 18px rgba(91, 91, 214, 0.45);
   }
+  .mobile-tabbar__item.is-active .mobile-tabbar__icon svg { width: 30px; height: 30px; }
 }
