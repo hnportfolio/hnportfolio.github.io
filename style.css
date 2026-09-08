@@ -901,7 +901,7 @@ ul, li { list-style: none; }
     align-items: center;
     gap: 4px;
     padding: 10px 16px;
-    border-radius: 24px;
+    border-radius: 999px;
     color: var(--gray-500);
     transition: background-color .2s ease, color .2s ease;
   }
